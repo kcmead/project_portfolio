@@ -2,107 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1060px, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mead Portfolio</title>
     <link rel="stylesheet" href="./style.css">
-    <title>Kevin Mead's Portfolio</title>
- 
 </head>
-<header>
-</header>
-
-<div class="header">
-    <h1>Kevin Mead's Portfolio</h1>
-    <div>
-        <ul>
-            <li>
-                <a href="#about-me">About Me</a>
-            </li>
-            <li>
-                <a href="#contact-me">Contact</a>
-            </li>
-            <li>
-                <a href="#projects-container">My Projects</a>
-            </li>
-        </ul>
-    </div>
-</div>
 <body>
-<section>
-    <div id="first-card">
-        <img src="./web-banner.avif" alt="blue banner design image">
-        
-    </div>
-    <div id="empty-line">
-    </div>
-    <div id="about-me" class="section-title">
-        <div class="text-title">
-            <h3>About Me</h3>
-            
+    <nav>
+        <div class="container">
+            <h1 class="logo">Kevin Mead's Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#projects">My Projects</a></li>
+            </ul>
         </div>
-    </div>
-    <div id="about-me-text" class="text-info-right">
-        <p>This is a section about me, what I do now, and what I want to do in the future.</p>
-    </div>
-    <div id="empty-line">
-    </div>
-    <div id="work" class="section-title">
-        <div class="text-title">
-            <h3>My Work</h3>
-        </div>
-        
-    </div>
-    <div id="work-text" class="text-info-right">
-        <p><b>MerchantE Solutions</b> - Senior Sales Engineer (May 2023 - present)</p>
-        <p><b>Oracle NetSuite</b> - Solution Consultant (February 2021- April 2023)</p>
-        <p><b>Oracle NetSuite</b> - Account Executive (November 2019 - January 2021)</p>
-        <p><b>Vyond</b> - Enterprise Account Executive (May 2016 - May 2019)</p>
-        <p><b>RoboteX</b> - Senior Account Manager & Financial Analyst (February 2014 - March 2016)</p>
-    </div>
-    <div id="empty-line">
-    </div>
-    <div id="contact-me" class="section-title">
-        <div class="text-title">
-            <h3>Contact Me</h3>
-        </div>
-        
-    </div>
-    <div id="contact-me-text" class="text-info-right">
-        <p>Please feel free to send me an email at <b>meadkc@gmail.com</b></p>
-        
-    </div>
-    <div id="empty-line">
-    </div>
-    <div id="projects-container">
-        <div class="text-title">
-            <h3>Projects</h3>
-        </div>
-        
-    </div>
-    <div id="projects-list">
-        <div id="project-1" class="my-projects">
-            <a href="https://kcmead.github.io/horiseon/"><img src="./search-engine-optimization.jpg" alt="Search Engine Optimization photo" class="image-containment">
-            
+    </nav>
 
-
+    <header class="hero">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
         </div>
-        <div id="project-line-2" class="my-projects">
+    </header>
 
-            <div id="project-2" class="my-projects">
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>This is a section about me, what I do now, and what I want to do in the future.</p>
+        </div>
+    </section>
 
+    <section id="work" class="work">
+        <div class="container">
+            <h2>My Work</h2>
+            <ul>
+                <p><b>MerchantE Solutions</b> - Senior Sales Engineer (May 2023 - present)</p>
+                <p><b>Oracle NetSuite</b> - Solution Consultant (February 2021- April 2023)</p>
+                <p><b>Oracle NetSuite</b> - Account Executive (November 2019 - January 2021)</p>
+                <p><b>Vyond</b> - Enterprise Account Executive (May 2016 - May 2019)</p>
+                <p><b>RoboteX</b> - Senior Account Manager & Financial Analyst (February 2014 - March 2016)</p>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: meadkc@gmail.com</p>
+            <p>Phone: (650) 704-6818</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <a href="https://kcmead.github.io/horiseon/">
+                    <img src="./search-engine-optimization.jpg" alt="SEO Optimization" class="project-image">
+                    <div class="project-title">Simple HTML Website</div>
+                </a>
             </div>
-            <div id="project-3" class="my-projects">
-
+            <div class="project">
+                <a href="https://armanbarseghyan83.github.io/e-commerce/">
+                    <img src="./landing-page.png" alt="E-commerce Website" class="project-image">
+                    <div class="project-title">E-Commerce Website (HTML, CSS, Javascript)</div>
+                </a>
             </div>
         </div>
-            <div id="project-line-3" class="my-projects">
-                <div id="project-4" class="my-projects">
+    </section>
 
-                </div>
-                <div id="project-5" class="my-projects">
-    
-                </div>
-        </div>
-</div>
-</section>
+    <script src="./script.js"></script>
 </body>
 </html>
